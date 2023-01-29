@@ -23,6 +23,7 @@ header .mobile-logo {
     width: 20%;
     height: 90%;
     margin-left: 5%;
+    display: block;
 }
 
 header .menu {

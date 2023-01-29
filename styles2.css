@@ -17,6 +17,10 @@
         align-self: center;
     }
     
+header .mobile-logo {
+    display: none;
+}
+
     header nav {
         display: block;
     }
