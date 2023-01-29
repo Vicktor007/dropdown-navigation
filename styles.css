@@ -19,7 +19,7 @@ header {
     justify-content: space-between;
 }
 
-header .logo {
+header .mobile-logo {
     width: 20%;
     height: 90%;
     margin-left: 5%;
@@ -29,6 +29,10 @@ header .menu {
     width: 10%;
     height: 90%;
     margin-right: 5%;
+}
+
+header nav {
+    display: none;
 }
 
 .main {
@@ -63,6 +67,12 @@ main button {
     font-size: 15px;
     border-radius: 10px;
     margin: 5% 125px;
+    background-color: black;
+    color: white;
+}
+
+.footer-images1 {
+    display: none;
 }
 
 footer {

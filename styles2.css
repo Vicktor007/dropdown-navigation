@@ -1,0 +1,150 @@
+@media screen and (min-width: 750px) { 
+    body {
+        width: 100%;
+        height: 100vh;
+    }
+
+    header {
+        width: 100%;
+        height: 7%;
+        margin-top: 1%;
+    }
+
+    header .logo {
+        width: 15%;
+        height: 35%;
+        margin-left: 5%;
+        align-self: center;
+    }
+    
+    header nav {
+        display: block;
+    }
+
+    .first-nav {
+        width: 40%;
+        height: 100%;
+        margin-left: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .first-nav ul {
+        width: 85%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 3%;
+    }
+
+     li {
+        list-style: none;
+        
+        
+    }
+
+    li a {
+        text-decoration: none;
+    }
+
+
+    .menu {
+        display: none;
+    }
+
+    header .second-nav {
+        width: 20%;
+        margin-right: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .second-nav button {
+        width: 30%;
+        height: 80%;
+        border: none;
+        background-color: white;
+
+    }
+
+    .second-nav .register {
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+    main {
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    main h1 {
+        width: 40%;
+        height: 20%;
+        font-size: 46px;
+        margin-left: 4%;
+        margin-bottom: -5%;
+        margin-top: 5%;
+    }
+
+    main p {
+        width: 40%;
+        height: 15%;
+        margin-left: 6%;
+    }
+
+    main button {
+        width: 15%;
+        height: 9%;
+        background-color: black;
+        color: white;
+        margin-left: 10%;
+    }
+
+    .footer-images1 {
+        display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40%;
+    height: 8%;
+    margin-left: 10%;
+    }
+
+    .footer-images1 img {
+       width: 20%;
+       height: 50%;
+    }
+
+    .mobile, .site-images {
+        display: none;
+    }
+
+   main .desktop {
+        display: block;
+        width: 40%;
+        height: 95%;
+    }
+
+    
+
+    
+
+    
+
+    footer .footer-images2 {
+        display: none;
+
+    }
+
+
+}
